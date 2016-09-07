@@ -1,0 +1,21 @@
+# Site settings
+title: Totally Rad
+header-img: img/home-bg.png
+email: qalearntest@gmail.com
+copyright_name: qalearntest
+description: > # this means to ignore newlines until "baseurl:"
+  vert
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  qalearntest
+learn_profile: qalearntest
+email_username: qalearntest@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
